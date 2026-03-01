@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta description="A nostalgic look at the old Facebook interface, featuring classic design elements and user experience from the early days of the social media platform."/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Old Facebook</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav>
+    <h1 class="logo">Facebook</h1>
+    <ul class="nav-form row">
+        <div class="email-input col">
+        <label for="email">Email or Phone:</label>
+        <li><input type="text" id="email" /></li>
+        <li>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label id="remember" class="form-check-label" for="exampleCheck1">Keep me logged in</label>
+        </div>
+        </li>
+        </div>
+        <div class="password-input col">
+        <label for="password">Password:</label>
+        <li><input type="password" id="password" /></li>
+        <a href="#" id="forgot-ps">Forgot account?</a>
+        </div>
+        <div class="login-button col">
+
+        <li><button id="nav-submit">Log In</button></li>
+        </div>
+    </ul>
+    </nav>
+    <main>
+    <section class="description">
+        <h5>
+        Facebook helps you connect and share with the people in your life.
+        </h5>
+        <img src="photo.png" alt="photo" />
+    </section>
+    <section class="signup">
+        <h1>Sign Up For Facebook</h1>
+        <p>It's free and always will be.</p>
+        <form>
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="First name" />
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Last name" /><br>
+            </div>
+        </div>
+        <input type="text" class="form-control" placeholder="Your email" /><br>
+        <input type="text" class="form-control" placeholder="Re-enter your email" /><br>
+        <input type="password" class="form-control" placeholder="New password" /><br>
+        <h2>Birthday</h2>
+        <select>
+            <option value="day">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
+        <select>
+            <option value="month">Month</option>
+            <option value="1">Jan</option>
+            <option value="2">Feb</option>
+            <option value="3">Mar</option>
+            <option value="4">Apr</option>
+            <option value="5">May</option>
+            <option value="6">Jun</option>
+            <option value="7">Jul</option>
+            <option value="8">Aug</option>
+            <option value="9">Sep</option>
+            <option value="10">Oct</option>
+            <option value="11">Nov</option>
+            <option value="12">Dec</option>
+        </select>
+        <select>
+            <option value="year">Year</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+            <option value="2009">2009</option>
+            <option value="2008">2008</option>
+            <option value="2007">2007</option>
+            <option value="2006">2006</option>
+            <option value="2005">2005</option>
+            <option value="2004">2004</option>
+            <option value="2003">2003</option>
+            <option value="2002">2002</option>
+            <option value="2001">2001</option>
+            <option value="2000">2000</option>
+        </select>
+        <a href="#">Why do I need to provide my birthday?</a><br>
+        <div class="gender">
+            <input type="radio" name="gender" value="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" />
+            <label for="female">Female</label>
+        </div>
+        <p id="terms">
+            By signing up, you agree to our Terms and that you have read our
+            Data Use Policy, including our Cookie Use.
+        </p>
+        <button type="submit" class="sign-up-button">Sign Up</button>
+        </form>
+        <hr />
+        <p><a href="#">Create a Page</a> for a celebrity, band or business.</p>
+    </section>
+    </main>
+    <footer>
+    <div class="footer-links">
+        <a href="#">English (US)</a>
+        <a href="#">Español</a>
+        <a href="#">Français (France)</a>
+        <a href="#">中文(简体)</a>
+        <a href="#">العربية</a>
+        <a href="#">Português (Brasil)</a>
+        <a href="#">Italiano</a>
+        <a href="#">한국어</a>
+        <a href="#">Deutsch</a>
+        <a href="#">हिन्दी</a>
+        <hr />
+        <a href="#">Mobile</a>
+        <a href="#">Find Friends</a>
+        <a href="#">Badges</a>
+        <a href="#">People</a>
+        <a href="#">Pages</a>
+        <a href="#">Places</a>
+        <a href="#">Games</a>
+        <a href="#">Locations</a>
+        <a href="#">Celebrities</a>
+        <a href="#">Groups</a>
+        <a href="#">Recipes</a>
+        <a href="#">Sports</a>
+        <a href="#">Entertainment</a>
+        <a href="#">Help</a>
+    </div>
+    <br>
+    <div class="footer-info">
+        <p>Facebook © 2013</p>
+    </div>
+    </footer>
+</body>
+</html>

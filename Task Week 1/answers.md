@@ -1,0 +1,5 @@
+**Answer Form — Question 1**
+
+**Question:** Open IEEE Mansoura Branch Website and navigate to the past sponsors section, then use DevTools to get the class name of the <a> tag referring to NTRA website.
+
+**Answer (class name):** sponser-card
